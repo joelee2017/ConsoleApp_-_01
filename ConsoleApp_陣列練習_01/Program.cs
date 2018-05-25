@@ -10,6 +10,12 @@ namespace ConsoleApp_陣列練習_01
     {
         static void Main(string[] args)
         {
+            int[] tAry = new int[] { 10, 20, 30, 40, 50 };
+            for(int k =0; k <= tAry.Length -1; k++)
+            {
+                Console.WriteLine($"tArty {k}, {tAry[k]}");
+            }
+            Console.ReadLine();
         }
     }
 }
